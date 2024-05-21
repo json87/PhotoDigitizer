@@ -5,6 +5,10 @@ Photo_digitizer is a tool that calculates the ground coverages of annotated poly
 
 ## Usage
 
+### 0. Use Labelme software to annotate red tide
+
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure11.png)
+
 ### 1. Open the software Photo_digitizer
 
 ![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure1.png)
@@ -31,29 +35,16 @@ Photo_digitizer is a tool that calculates the ground coverages of annotated poly
 
 ![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure5.png)
 
-## Test data page
+## Reference
 
-### 1. Image directory
+Please refer to the following papers for the technique details.
 
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure6.png)
-
-### 2. Image photo
-
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure7.png)
-
-### 3. json
-
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure8.png)
-
-### 4. Camera parameters
-
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure9.png)
-
-### 5. POS
-
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure10.png)
-
-## 4.Use Labelme software to annotate red tide
-
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure11.png)
-
+```
+@article{
+  title={UAV Photogrammetry for Red Tide Monitoring and Geo-Localization via Onboard GNSS/IMU Data},
+  author={Mengran Yang, Yichen Ma, San Jiang, Cheng Yin and Wei Huang},
+  journal={Geocarto International },
+  pages={1--22},
+  year={2024},
+  publisher={Taylor & Francis}
+}
