@@ -1,13 +1,13 @@
 # PhotoDigitizer
 Photo_digitizer is a tool that calculates the ground coverages of annotated polygons from images. The annotated polygons are drawn from the labelme annoation tool. Based on the principle of triangulation, the software can calculate the 3D geographical coordinates of annotated polygons by using intrinc and extrinsic data from image EXIF or specified by users. In this study, this tool has been used for red tide monitoring by using UAV images.
 
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/Figure0.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure0.png)
 
 ## Usage
 
 ### 0. Use Labelme software to annotate red tide
 
-![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure11.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure6.png)
 
 ### 1. Open the software Photo_digitizer
 
