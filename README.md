@@ -1,59 +1,59 @@
 # PhotoDigitizer
-photo_digitizer is a tool that calculates based on images annotated with labelme. It reads JSON data and converts two-dimensional data into three-dimensional geographic coordinates SHP data.
+Photo_digitizer is a tool that calculates the ground coverages of annotated polygons from images. The annotated polygons are drawn from the labelme annoation tool. Based on the principle of triangulation, the software can calculate the 3D geographical coordinates of annotated polygons by using intrinc and extrinsic parameters from image EXIF data or specified by users. In this study, this tool has been used for red tide monitoring by using UAV images.
+
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure0.png)
 
 ## Usage
 
-The scripts to run the whole process of the ParallelSfM are given:
+### 1. Open the software Photo_digitizer
 
-### 1. Open the calculation software Photo_digitizer
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure1.png)
 
-![](\figures\figure1.png)
-
-### 2. In the Photo_digitizer software interface (as shown in the figure above), input the data required by the calculation software
+### 2. In the Photo_digitizer software interface (as shown in the figure above), specify the data required by the calculation software
 
 - Image Directory: Directory where images and json files are located.
 
-- Elevation Retrieval: Enter the elevation value of the annotated area.
+- Elevation : Enter the elevation value of the annotated area.
 
 - Data Format:  Data format for calculating image tiles.
 
 - Camera Parameters, POS Directory: Provide if images do not contain them; otherwise, no need to provide (the figure below shows the case where camera parameters and POS directory are needed, format as follows).
 
-  ![](\figures\figure2.png)
+ ![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure2.png)
 
-  ![](\figures\figure3.png)
+  ![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure3.png)
 
 ### 3. Click to run and generate the result file. The result is in SHP data format with WGS84 geographic coordinates
 
-![](\figures\figure4.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure4.png)
 
 ### 4. Import the results into ArcMap for editing and report generation.
 
-![](\figures\figure5.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure5.png)
 
 ## Test data page
 
 ### 1. Image directory
 
-![](\figures\figure6.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure6.png)
 
 ### 2. Image photo
 
-![](\figures\figure7.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure7.png)
 
 ### 3. json
 
-![](\figures\figure8.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure8.png)
 
 ### 4. Camera parameters
 
-![](\figures\figure9.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure9.png)
 
 ### 5. POS
 
-![](\figures\figure10.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure10.png)
 
 ## 4.Use Labelme software to annotate red tide
 
-![](/figures/figure11.png)
+![](https://github.com/json87/PhotoDigitizer/blob/main/figures/figure11.png)
 
