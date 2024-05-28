@@ -44,7 +44,9 @@ Please refer to the following papers for the technique details.
   title={UAV Photogrammetry for Red Tide Monitoring and Geo-Localization via Onboard GNSS/IMU Data},
   author={Mengran Yang, Yichen Ma, San Jiang, Cheng Yin and Wei Huang},
   journal={Geocarto International },
-  pages={1--22},
+  volume={39},
+  issue={1}
+  pages={2357690},
   year={2024},
   publisher={Taylor & Francis}
 }
