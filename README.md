@@ -45,7 +45,7 @@ Please refer to the following papers for the technique details.
   author={Mengran Yang, Yichen Ma, San Jiang, Cheng Yin and Wei Huang},
   journal={Geocarto International },
   volume={39},
-  issue={1}
+  issue={1},
   pages={2357690},
   year={2024},
   publisher={Taylor & Francis}
